@@ -1,0 +1,16 @@
+{
+    "name": "eklundchristopher/dependency-injection",
+    "authors": [
+        {
+            "name": "Christopher",
+            "email": "eklundchristopher@gmail.com"
+        }
+    ],
+    "require": {},
+	"autoload": {
+		"psr-4": {
+            "Zoo\\": "Zoo/",
+			"Custom\\": "Custom/"
+		}
+	}
+}
