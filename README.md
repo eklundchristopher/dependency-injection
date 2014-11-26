@@ -4,6 +4,9 @@ This is a very simple example of how dependency injection works.
 I have left the Custom folder empty, for you to experiment with as you see fit.
 You may register your custom bindings through the ./custom.php file.
 
+And yes, this specific zoo houses dogs and feed them with pizza. It's the truth,
+I promise.
+
 ### Requirements ###
 * PHP 5.3+
 * Composer
