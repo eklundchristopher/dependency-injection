@@ -10,7 +10,7 @@ class Dog implements AnimalContract {
 	 *
 	 * @param  integer $steps
 	 * @param  integer $direction null
-	 * @return boolean
+	 * @return string
 	 */
 	public function walk($steps, $direction = null)
 	{
