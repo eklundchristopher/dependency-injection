@@ -9,8 +9,8 @@ You may register your custom bindings through the ./custom.php file.
 * Composer
 
 ### Installation ###
-Once you have composer installed, traverse over to your folder path and run the 
-following command in your terminal. This will setup the autoloading file for you.
+Once you have composer installed, traverse over to your project path and run the 
+following command in your terminal. This will compile the autoloading file for you.
 ```bash
 composer install
 ```
