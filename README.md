@@ -32,7 +32,10 @@ class StrayDog { ... }
 ```
 
 It is also highly recommended that you implement the appropriate contracts as you go.
-This way, you can make sure your repository has all of the required methods.
+This way, you can make sure your repository has all of the required methods. If you
+don't however, the application will fail as you try to pass the food object into the
+eat method of the animal as it is expecting an instance of Zoo\Contracts\Food. The
+importance of contracts cannot be understated.
 
 ```php
 <?php namespace Custom\Repositories;
