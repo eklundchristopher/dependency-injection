@@ -8,7 +8,7 @@ And yes, this specific zoo houses dogs and feed them with pizza. It's the truth,
 I promise.
 
 ### Requirements ###
-* PHP 5.3+
+* PHP 5.4+
 * Composer
 
 ### Installation ###
