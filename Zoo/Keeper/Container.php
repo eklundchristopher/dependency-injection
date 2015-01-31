@@ -29,7 +29,7 @@ class Container {
 	/**
 	 * Retrieve the Container object.
 	 *
-	 * @return \Zoo\Keeper\Container|null
+	 * @return Container
 	 */
 	public static function getInstance()
 	{
