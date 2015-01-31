@@ -7,9 +7,9 @@ class Container {
 	/**
 	 * Holds the singleton instance.
 	 *
-	 * @var Zoo\Keeper\Container|null
+	 * @var Zoo\Keeper\Container
 	 */
-	private static $singleton = null;
+	protected static $singleton;
 
 	/**
 	 * Holds the implemented instances.
@@ -20,8 +20,6 @@ class Container {
 
 	/**
 	 * Instantiate a new Container object.
-	 *
-	 * @return void
 	 */
 	public function __construct()
 	{
@@ -31,7 +29,7 @@ class Container {
 	/**
 	 * Retrieve the Container object.
 	 *
-	 * @return Zoo\Keeper\Container
+	 * @return Zoo\Keeper\Container|null
 	 */
 	public static function getInstance()
 	{
