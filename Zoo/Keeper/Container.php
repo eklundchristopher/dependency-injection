@@ -7,7 +7,7 @@ class Container {
 	/**
 	 * Holds the singleton instance.
 	 *
-	 * @var Zoo\Keeper\Container
+	 * @var Container
 	 */
 	protected static $singleton;
 
